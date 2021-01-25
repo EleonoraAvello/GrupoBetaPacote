@@ -20,5 +20,4 @@ function metodo_potencias(E::Matrix, tol = 1e-10, max_iter = 1000)
     end
     λ = dot(y0, E*y0)
     return λ, y0, iter
-  end
-  metodo_potencias([1 2; 3 2])
+    end
